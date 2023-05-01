@@ -1,9 +1,5 @@
-# UCAMP Python C9
-## Semana 3
+Calculo de indice de masa corporal, con datos ingresados por el usuario
 
-
-1. Crea un repositorio llamado ucamp-python-c6-s3
-2. Haz un programa que solicite un número por consola (exercise1.py)
-3. Convierte el dato escrito por el usuario a un número entero
-4. Divide el número por 3
-5. Imprime True o False de acuerdo a si el resultado es mayor a 2 
+Utilicé la función "TRY" la cual me permitío pedirle a el usuario que ingresara un dato en cada variable, las cuales no eran permitidas quedar vacías, por lo que en la función entra un "IF" donde se compara si el usuario no ingresó los datos solicitados, a demas, de que en algunas variables forza a que no ingrese cadena de texto, sino ingrese números ya sean enteros o flotantes, estos son necesarios para poder ejecutar el fin de este programa, es decir, poder calcular el indice de masa corporal por una función matemática.
+El programa no avanza si el usuario no ingresa un dato en cada variable, y si ingresa un dato incorrecto, manda un mensaje de error y vuelve a pedir que ingrese un dato, par apoder asignarselo a cada variable. Si los datos ingresados por el usuario son correctos, la funcion va finalizando y asignando datos a cada variable.
+Una vez obteniendo los datos correctos a cada variable, se puede ejecutar el operador matemático para poder obtener el indice de masa corporal.
